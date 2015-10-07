@@ -189,7 +189,7 @@ body {
   color: #999;
 }
 
-/* Green Header */
+/* Gray Header */
 header {
   background-color: #aaaaaa;
   border-color: #599a68;
@@ -220,7 +220,7 @@ nav a.selected {
 }
 
 nav a:hover {
-   color: #32673f;
+   color: #326799;
 }
 
 
