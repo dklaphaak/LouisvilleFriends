@@ -32,7 +32,7 @@ function breadcrumbs()
 		if (arrURL.length > 3) {
 			for (counter = 3;counter < arrURL.length-1;counter++) {  // Loop to display the links
 				path += arrURL[counter] + '/';  // always end links to folder with '/' 
-				output += ' | <a href="' + path + '">' + (arrURL[counter].replace(/_/g,' ')) + '</a>';
+				output += ' | <a href="' + path + '">' + (arrURL[counter].replace(/_/g,' ')) + '</	a>';
 			}
 
 			// Display the name of the current page in bold

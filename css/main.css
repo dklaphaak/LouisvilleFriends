@@ -22,7 +22,15 @@ img {
 
 }
 
-
+#schedule {
+  display: inline-block;
+  border: solid;
+  border-color: #999;
+  border-width: 1px;
+  list-style: none;
+  padding: 0 5%;
+  float: right;
+}
 /***********************
 HEADING
 ************************/
@@ -107,7 +115,7 @@ footer {
 /***********************
 PAGE: PORTFOLIO
 ************************/
-
+/*
 #gallery {
   margin: 0;
   padding: 0;
@@ -128,7 +136,7 @@ PAGE: PORTFOLIO
   font-size: 0.75em;
   color: #bdc3c7;
 }
-
+*/
 
 /***********************
 PAGE: ABOUT
@@ -186,7 +194,7 @@ COLORS
 /* Site Body */
 body {
   background-color: #fff;
-  color: #999;
+  color: #000;
 }
 
 /* Gray Header */
@@ -222,5 +230,11 @@ nav a.selected {
 nav a:hover {
    color: #326799;
 }
+
+nav a:hover.selected {
+   color: #32673f;
+}
+
+
 
 
