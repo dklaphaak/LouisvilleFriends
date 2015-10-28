@@ -31,6 +31,19 @@ img {
   padding: 0 5%;
   float: right;
 }
+
+#welcome {
+  display: inline-block;
+  border: none;
+  list-style: none;
+  padding: 0 5%;
+  float: right;
+  max-width: 60%
+}
+
+
+
+
 /***********************
 HEADING
 ************************/
@@ -143,7 +156,7 @@ PAGE: ABOUT
 ************************/
 
 .profile-photo {
-  max-width: 150px;
+  max-width: 200px;
   margin: 0 auto 30px;
   border-radius: 100%;
   display: inline-block; 
