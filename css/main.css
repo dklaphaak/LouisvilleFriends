@@ -41,6 +41,12 @@ img {
   max-width: 60%
 }
 
+blockquote {
+font-family: 'arial', sans-serif;
+font-weight: 700; 
+font-size: .75em;
+
+}
 
 
 

@@ -11,13 +11,12 @@
 
   #secondary {
     width: 40%;
-    float: right;
-  }
+    float: right;  }
    
   /***********************
   PAGE: PORTFOLIO
   ************************/
-  
+/*  
   #gallery li {
     width: 28.3333%
   }
@@ -25,7 +24,7 @@
   #gallery li:nth-child(4n) {
     clear: left;
   }
-  
+  */
   
   /***********************
   PAGE: ABOUT
