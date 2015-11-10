@@ -64,6 +64,7 @@ header {
 #logo {
   text-align: center;
   margin: 0;
+
 }
 
 h1 {
@@ -165,8 +166,8 @@ PAGE: ABOUT
   max-width: 200px;
   margin: 0 auto 30px;
   border-radius: 100%;
-  display: inline-block; 
-  /** can't get the img to display uning 'block' for display setting **/
+  display: block; 
+
 }
 
 /***********************
