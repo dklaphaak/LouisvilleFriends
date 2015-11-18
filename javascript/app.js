@@ -106,7 +106,7 @@ var builddata = function () {
             source[id] = items[id];
         }
     }
-    console.log(source);
+    //console.log(source);
     return source;
 }
 var source = builddata();

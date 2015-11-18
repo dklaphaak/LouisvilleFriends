@@ -133,9 +133,10 @@ footer {
 
 
 /***********************
-PAGE: PORTFOLIO
+PAGE: PORTFOLIO 
+Need this stuff for the photos page
 ************************/
-/*
+
 #gallery {
   margin: 0;
   padding: 0;
@@ -156,7 +157,7 @@ PAGE: PORTFOLIO
   font-size: 0.75em;
   color: #bdc3c7;
 }
-*/
+
 
 /***********************
 PAGE: ABOUT
@@ -213,12 +214,23 @@ COLORS
 
 /* Site Body */
 body {
+
   background-color: #fff;
   color: #000;
 }
 
+/* Site Sections 
+add padding to pushh down below fixed header
+*/
+section {
+
+  padding-top: 150px;
+
+}
+
 /* Gray Header */
 header {
+  position: fixed;
   background-color: #aaaaaa;
   border-color: #599a68;
   }
