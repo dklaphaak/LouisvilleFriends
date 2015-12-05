@@ -48,7 +48,14 @@ font-size: .75em;
 
 }
 
+/* Site Sections 
+add padding to push down below fixed header
+*/
+section {
 
+  padding-top: 150px;
+
+}
 
 /***********************
 HEADING
@@ -192,7 +199,7 @@ PAGE: CONTACT
   margin: 0 0 10px;
 }
 
-.contact-info li.phone a {
+/*.contact-info li.phone a {
     background-image: url("../img/phone.png");
 }
 
@@ -205,7 +212,7 @@ PAGE: CONTACT
 .contact-info li.twitter a {
     background-image: url("../img/twitter.png");
 }
-
+*/
 
 
 /***********************
@@ -217,15 +224,6 @@ body {
 
   background-color: #fff;
   color: #000;
-}
-
-/* Site Sections 
-add padding to pushh down below fixed header
-*/
-section {
-
-  padding-top: 150px;
-
 }
 
 /* Gray Header */
