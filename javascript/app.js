@@ -1,7 +1,11 @@
-
+//*** Trying to adapt this code to generate top-level navigation menus on the fly. Ideally, updates to the navigation of a site
+//would be much easier if I only have to create or destroy a new object in data array. I forget where the original code came
+//from, but it was originally intended to dynamically generate static menus on web page.
+//
+//
 
 //*************************************************************
-//Start of JSON data for dynamic menu generator
+//Start of JSON data for dynamic menu generator 
 //*************************************************************
 var data = [
 {

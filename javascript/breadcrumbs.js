@@ -1,6 +1,8 @@
 // breadcrumbs
 // This function populates the breadcrumb section of the page.
-
+// I found this JS on a Canadian government download site.  It was supposed to be used on internal web pages. I am trying to adapt it for this outwardly facing web site.
+// 
+// 
 function breadcrumbs()
 {
 	if ((document.getElementById) && document.getElementById('breadcrumb_dynamic')) { // Make sure browser supports getElementById and breadcrumb_dynamic exists
