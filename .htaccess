@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/html/about/
+RewriteCond %{REQUEST_URI} !^/html/archives/
+RewriteCond %{REQUEST_URI} !^/html/contact/
+RewriteCond %{REQUEST_URI} !^/html/history/
+RewriteCond %{REQUEST_URI} !^/html/photos/
+RewriteCond %{REQUEST_URI} !^/html/resources/
+RewriteCond %{REQUEST_URI} !^/Reports/
+RewriteCond %{REQUEST_URI} !^/img/
+RewriteCond %{REQUEST_URI} !^/javascript/
+RewriteCond %{REQUEST_URI} !^/css/
+RewriteRule ^(.*) /html/about/$1 [L]
